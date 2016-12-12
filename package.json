@@ -133,7 +133,7 @@
     "nugget": "^2.0.1",
     "plist": "^2.0.1",
     "pn": "^1.0.0",
-    "pre-commit": "^1.1.2",
+    "pre-commit": "^1.2.1",
     "pre-flight": "^1.0.2",
     "react-addons-test-utils": "^15.3.1",
     "remap-istanbul": "^0.6.4",
