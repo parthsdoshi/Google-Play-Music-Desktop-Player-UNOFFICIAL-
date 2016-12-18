@@ -114,7 +114,7 @@ export const updateScrobble = (track, artist, album, timestamp) => {
 };
 
 export const heartSong = (love, track, artist, album) => {
-  if (Settings.get('lastFMKey')) {
+  if (Settings.get('lastFMKey') && Settings.get('lastfm:heart')) {
     getLastFMSession()
       .then((session) => {
         lastfm.request(`track.${love ? 'love' : 'unlove'}`, session, {
